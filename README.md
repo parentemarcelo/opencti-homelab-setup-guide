@@ -8,7 +8,7 @@ This tutorial goes through this deployment and setup process, including enabling
 ## 2. Prerequisites
 OpenCTI is readily available to be run as a Docker container, so we just need an environment for it to run on. For my homelab, I already have a mini pc with proxmox, so I can easily just spin up a VM to run my docker containers on. I will not go over the steps of installing proxmox and creating a new VM, as this is a very generic procedure and is well documented online. 
 For the OpenCTI to run comfortably it is recommended to have available 4 CPU cores, 8 Gb RAM and 100 Gb of storage. Since the whole of my mini pc only has 4 cores and 8 Gb, and I have other services running on it (besides the proxmox itself), I had to cut it a bit short and gave the VM only 3 cores and 5.5 Gb of RAM. For the storage it has 96 Gb.
-	2.1 pic
+![System Hardware Specs](images/2.1.png)
 For the OS, it’s running Debian without desktop environment (DE), as I’m just connecting to it via SSH. The steps should be similar for any linux distro.
 
 ## 3. Installation
