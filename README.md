@@ -45,6 +45,7 @@ If you don’t want to invent API keys on your own, you can use the uuid package
 
 ![OpenCTI sample .env file](screenshots/3.5.png)
 ![OpenCTI .env file example](screenshots/3.6.png)
+
 PS: I know there are keys visible. But this is a local instance, not publicly accessible, and the keys are already obsolete by the time of posting here.
 
 In my particular case, I have further gone ahead and limited the CPU usage of each individual service (Elastic - 1, OpenCTI - 1, RabbitMQ - 0.5) by editing the “docker-compose.yml” file. Example for Elastic service:
