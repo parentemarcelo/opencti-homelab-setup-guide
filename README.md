@@ -122,6 +122,7 @@ For this, we need to add any missing parameter to the .env file of our OpenCTI a
 If you want to deploy an instance I recommend you to follow all steps and troubleshootings. But in case you are lazy, I have left templates of the final OpenCTI compose file and .env that you can just copy and adjust the .env file.
 
 📄 Example OpenCTI docker compose file (w/ VT and Mitre connectors): [docker-compose.yml](config/docker-compose.yml)
+
 📄 Corresponding example .env: [.env](config/.env)
 
 ![Improved OpenCTI compose file](screenshots/7.1.png)
